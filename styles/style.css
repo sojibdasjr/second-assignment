@@ -1,0 +1,196 @@
+/* body style setup */
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+}
+
+
+/*-------------------- 
+header styel applying  
+----------------------*/
+nav{
+    background-color: rgba(0, 0, 255, 0.719);
+    padding-bottom: 40px;
+   
+}
+.nav-link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 67px;
+    padding-top: 42px;
+
+}
+.nav-link ul li{
+    display: inline-block;
+    font-size: 20px;
+    
+}
+.nav-link ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+    
+
+}
+#watch{
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    padding: 8px 24px;
+    font-size: 16px;
+}
+#watch:hover{
+    background: yellowgreen;
+    transition: .5s;
+}
+.anchor:hover{
+    background-color: yellow;
+    color: tomato;
+    border-radius: 5px;
+    padding: 1px 5px;
+    transition: .5s;
+}
+#icon-color{
+    color: white;
+    padding-right: 8px;
+}
+.login a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #E02C6D;
+    padding: 10px 40px;
+    margin-right: 218px;
+    border-radius: 10px;
+    
+}
+.login a:hover{
+    background-color: rgb(12, 193, 248);
+    transition: 0.5s;
+}
+.header-continer{
+    
+    display: flex;
+    justify-content: space-around;
+          
+}
+.copa-text{
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+}
+.photo-side img{
+    width: 556.01px;
+    height: 438px;
+}
+.photo-side:hover{
+    transform: scale(1.2);
+    transition: transform 5s;
+    
+}
+/*--------------------------- 
+header styel applying stop  
+----------------------------*/
+
+/* -----------------------------
+players information style start
+--------------------------------*/
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.containar{
+    width: 870px;
+    padding-top:  85px;
+   
+}
+.players-about{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    
+    
+}
+.player{
+    position: relative;
+    margin: auto 20px;
+    box-shadow: 0px 5px 13px;
+}
+.player-photo{
+    width: 92%;
+}
+.player img{
+    width: 100%;
+    margin: 4% 4% auto 4%;
+    display: inline-block;
+    border-radius: 5px;
+}
+.player-info{
+    width: 92%;
+    margin: 2% 4% 10% 4%;
+}
+/* -----------------------------
+players information style stop
+--------------------------------*/
+
+
+/* Highlights section sytle  */
+
+/* .containar{
+    margin-top: 65px;
+} */
+.Highlights{
+    font-size: 48px;
+
+}
+.Text-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 69px; 
+}
+.paragraph{
+    font-size: 16px;
+    
+}
+
+.Higlights-image img{
+    width: 100%;
+    
+}
+
+/* Highlights style stop */
+
+article{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 65px;
+    margin: 150px;
+    grid-gap: 20px;
+    
+}
+
+/* footer style start */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 65px;
+    padding-bottom: 63px ;
+}
+.footer-logo img{
+    width: 483.87px;
+    height: 110px;
+}
+.footer-icon img{
+    width: 32px;
+    height: 32px;
+    padding-top: 20px;
+}
+.footer-text{
+    font-size: 18px;
+    padding-top: 20px;
+}
+/* footer style start */
