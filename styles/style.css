@@ -8,7 +8,7 @@ body{
 /*-------------------- 
 header styel applying  
 ----------------------*/
-nav{
+header{
     background-color: rgba(0, 0, 255, 0.719);
     padding-bottom: 40px;
    
@@ -194,3 +194,12 @@ footer{
     padding-top: 20px;
 }
 /* footer style start */
+
+
+/* media quary  */
+@media only screen and (min-width 688px) {
+    .nav-saction{
+        display: none;
+    }
+       
+}
