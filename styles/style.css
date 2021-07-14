@@ -107,6 +107,8 @@ main{
     padding-top:  85px;
    
 }
+
+
 .players-about{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -160,9 +162,6 @@ players information style stop
     width: 100%;
     
 }
-
-/* Highlights style stop */
-
 .highlights-containar{
     width: 870px;
     padding-top:  85px;
@@ -177,6 +176,48 @@ article{
     
 }
 
+/* Highlights style stop */
+
+
+
+/* club */
+.blogs-tital{
+    color: blueviolet;
+    font-weight: 900;
+    font-size: 50px;
+}
+.blog{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(216, 208, 208, 0.288);
+    box-shadow: 0px 0px 10px;
+}
+.club{
+    width: 870px;
+    display: flex;
+    justify-content:space-between;
+}
+.club-icon{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    
+}
+#club-banner{
+    width: 560px;
+    height: 456px;
+}
+.club-image{
+    width: 100px;
+    height: 100px;
+}
+.club-image:hover{
+    transform: scale(1.8);
+    transition: transform .5s;
+}
+
 /* footer style start */
 footer{
     display: flex;
@@ -189,6 +230,8 @@ footer{
 .icon{
     padding-right: 10px;
 }
+
+
 .footer-logo img{
     width: 483.87px;
     height: 110px;
